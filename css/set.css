@@ -1,0 +1,38 @@
+#password{
+	border: 1px solid #555;
+    outline-color: #08538C;
+    width: 96%;
+    font-size: 0.8125em;
+    padding: 0.5em;
+}
+
+#phone{
+	border: 1px solid #555;
+    outline-color: #FD9F3E;
+    width: 96%;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.phone{
+	border: 1px solid #555;
+    outline-color: #FD9F3E;
+    width: 96%;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+#submit {
+    background: #FD9F3E;
+    color: #FFF;
+    font-size: 1.2em;
+    padding: 0.6em 2em;
+    /*transition: 0.5s all;*/
+    -webkit-transition: 0.5s all;
+    /*-moz-transition: 0.5s all;
+    -o-transition: 0.5s all;*/
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,47 @@
+.user{
+  float: right;
+  padding top: 15px;
+  }
+
+  <style type="text/css">
+ul.a{   margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color:;
+
+    }
+    ul li.a{
+        display: inline-block;
+        position: absolute;
+        line-height: 21px;
+
+    }
+    ul li a.a{
+
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+       ul li ul.dropdown{
+       	font-family: sans-serif;
+       	text-align: center;
+       	max-width: 65px;
+        min-width: 65px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+
+    	display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+</style>
+.pic{
+  height:300px;
+  width:300px;
+  }
